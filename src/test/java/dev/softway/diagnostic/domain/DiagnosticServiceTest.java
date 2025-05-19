@@ -74,7 +74,6 @@ class DiagnosticServiceTest {
 
         // Then
         assertTrue(uniteMedicales.containsAll(List.of(CARDIOLOGIE, TRAUMATOLOGIE)));
-        System.out.println(uniteMedicales);
     }
 
 }
