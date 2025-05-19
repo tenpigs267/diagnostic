@@ -13,6 +13,9 @@ public class DiagnosticService {
         if (indexSante.indiqueProblemeCardiaque()) {
             uniteMedicales.add(UniteMedicale.CARDIOLOGIE);
         }
+        if (indexSante.indiqueFracture()) {
+            uniteMedicales.add(UniteMedicale.TRAUMATOLOGIE);
+        }
         return uniteMedicales;
     }
 }
